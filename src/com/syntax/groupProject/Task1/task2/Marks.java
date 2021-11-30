@@ -1,7 +1,7 @@
-package com.syntax.groupProject;
+package com.syntax.groupProject.Task1.task2;
 
-abstract class Marks {
-    /*
+public abstract class Marks {
+      /*
     We have to calculate the average of marks obtained in three subjects by student A and by student B.
     Create class 'Marks' with an abstract method 'getPercentage' that will be returning the average percentage of marks.
     Provide implementation of abstract method in classes 'A' and 'B'. The constructor of student A takes the marks
@@ -31,7 +31,7 @@ class B extends A{
 
     double marks4;
     B(double marks1,double marks2, double marks3, double marks4) {
-       super(marks1,marks2,marks3);
+        super(marks1,marks2,marks3);
         this.marks4=marks4;
     }
     public void getPercentage() {
@@ -40,3 +40,5 @@ class B extends A{
     }
 
 }
+
+

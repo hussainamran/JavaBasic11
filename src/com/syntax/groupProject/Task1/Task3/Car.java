@@ -1,4 +1,4 @@
-package com.syntax.groupProject;
+package com.syntax.groupProject.Task1.Task3;
 
 public class Car {
     /*
@@ -52,3 +52,4 @@ class Sedan extends Car {
         }
     }
 }
+

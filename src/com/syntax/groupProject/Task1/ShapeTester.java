@@ -1,6 +1,6 @@
-package com.syntax.groupProject;
+package com.syntax.groupProject.Task1;
 
-public class Shape1Tester {
+public class ShapeTester {
     public static void main(String[] args) {
         Shape[] shape={new Circle1(), new Square()};
         for(Shape shape1:shape){
@@ -8,4 +8,5 @@ public class Shape1Tester {
             shape1.calculatePerimeter();
         }
     }
+
 }

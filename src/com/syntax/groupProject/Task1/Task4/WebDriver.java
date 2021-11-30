@@ -1,4 +1,4 @@
-package com.syntax.groupProject;
+package com.syntax.groupProject.Task1.Task4;
 
 public interface WebDriver {
     void open();
@@ -60,11 +60,12 @@ class FirefoxDriver extends ChromeDriver{
         System.out.println("Close FirefoxDriver browser");
     }
 }
-class SafariDriver extends FirefoxDriver{
+class SafariDriver extends FirefoxDriver {
     @Override
     public void navigate() {
         System.out.println("Navigate to the Safari browser");
     }
+
     @Override
     public void open() {
         System.out.println("Open Safari browser");

@@ -1,4 +1,4 @@
-package com.syntax.groupProject;
+package com.syntax.groupProject.Task1.task2;
 
 public class MarksTester {
     public static void main(String[] args) {
@@ -12,4 +12,5 @@ public class MarksTester {
             marks1.getPercentage();
         }
     }
+
 }
